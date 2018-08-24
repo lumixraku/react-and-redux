@@ -1,3 +1,5 @@
+//这里是一个纯粹的容器组件
+//这里没有和store交互
 import React from 'react';
 import Link from './link.js';
 import {FilterTypes} from '../../constants.js'

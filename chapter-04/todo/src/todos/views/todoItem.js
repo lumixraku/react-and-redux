@@ -16,7 +16,7 @@ const TodoItem = ({onToggle, onRemove, completed, text}) => {
   )
 }
 
-
+// 这里没有mapDispatchToState 这里的onRemove 和
 TodoItem.propTypes = {
   onToggle: PropTypes.func.isRequired,
   onRemove: PropTypes.func.isRequired,

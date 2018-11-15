@@ -19,6 +19,7 @@
     "sinon": "^1.17.6"
   },
   "scripts": {
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start"
   }
 }

@@ -19,7 +19,6 @@ describe('modifyPropsHOC', () => {
     }
     const NewComponent = modifyPropsHOC(DivComponent);
     const wrapper = mount(<NewComponent />);
-
     expect(wrapper.find('div')).to.have.style('color').equal('red');
   });
 
